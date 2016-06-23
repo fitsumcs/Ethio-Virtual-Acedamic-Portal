@@ -1,0 +1,134 @@
+
+.home_container{
+    margin:0;
+    width:70%;
+    float:left;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: solid beige 1px;
+
+}
+div#head{
+    width: 100%;
+    height: 300px;
+    background-image: url("../image/slide1.JPG");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 0px;
+    -webkit-animation:backdrop_roll linear 15s infinite alternate;
+    -moz-animation:backdrop_roll linear 15s infinite alternate;
+    -o-animation:backdrop_roll linear 15s infinite alternate;
+    -ms-animation:backdrop_roll linear 15s infinite alternate;
+    animation:backdrop_roll linear 15s infinite   alternate;
+ }
+
+      @-webkit-keyframes backdrop_roll{  from  { right: 0px; }  to  {right:300px; }  }
+      @-moz-keyframes backdrop_roll{  from  { right: 0px;  }  to  {right: 300px; }  }
+      @-o-keyframes backdrop_roll{  from  { right: 0px;  }  to  {right: 300px; }  }
+      @-ms-keyframes backdrop_roll{  from  { right: 0px;  }  to  {right: 300px; }  }
+      @keyframes backdrop_roll{  from  { right: 0px;  }  to  {right: 300px; }  }
+      
+
+div.fig{
+    display: inline-block;
+    float: left;
+    width: 18%;
+}
+#left-holder{
+    height: 450px;
+    width: 100px;
+    position: absolute;
+    left:18%;
+    top:0px;
+   
+}
+#right-holder{
+    height: 450px;
+    width: 100px;
+    position: absolute;
+    right:25%;
+    top:0px;    
+    
+}
+#right-holder:hover, #left-holder:hover{
+   
+}
+img#left{
+    
+    height:50px;
+    width:50px;
+    position: absolute;
+    top:75%;
+    left:40px;
+}
+img#right{
+    
+    height:50px;
+    width:50px;
+    position: absolute;
+    top:75%;
+    right:2px;
+}
+/* this is for the boxes of resources*/
+section{ 
+        }
+        ul{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+
+        }
+        a:hover{text-decoration: none;color:white;}
+
+        #display main{
+            
+            width: 100%;
+        }
+       
+       
+        #resource:hover{
+            background-color:lightgreen; 
+        }
+        
+        
+        
+        #pdf img{
+            width: 156px;
+            height: 150px;
+            
+        }
+        #pdf ul{
+            display: block;
+         
+        }
+        #pdf ul li{display: block;}
+        #pdf figure{
+            float: left;
+            padding:0px;
+        }
+        
+        #video ul{
+            display: block;
+
+            
+        }
+        #video ul li{
+            display: block;
+            }
+        #video video{
+            border:2px solid #C0C0C0; 
+            display: inline;
+
+            
+            
+        }
+        .info{
+            background-color: #0072c6;
+            overflow: auto;
+        }
+        .info span{
+            font-size: 2em;
+            font-family: Times;
+            padding-left: 20%;
+        }

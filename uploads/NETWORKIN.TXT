@@ -1,0 +1,73 @@
+router ospf 1
+network 192.168.16.0 0.0.0.3 area0
+
+
+the highest ip address is gateway e.g 192.168.17.2 ,192.168.15.1, form the the fisrt one is gateway.
+loopback interface for self checking mechancism.
+physical address ingored if there is loobback address
+
+assing llob bck
+
+interface loobback 0
+ip address 192.168.17.2
+
+
+
+first proiriy router id
+second		loobback address
+thirdd=		physical address
+
+to assing router id
+router ospf 1
+router id 10.10.0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+passing iterface:-
+config t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+config t
+show ip ospf neighbor:-display choosen ip by the router
+
+ 
+
+
+
+
+
+
